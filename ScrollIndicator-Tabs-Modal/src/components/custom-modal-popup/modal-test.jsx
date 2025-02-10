@@ -11,7 +11,7 @@ export default function ModalTest() {
   return (
     <div>
       <button onClick={handleToggleModalPopup}>Open Modal Popup</button>
-      {showModalPopup && <Modal />}
+      {showModalPopup && <Modal body={<div>Customized Body</div>} />}
     </div>
   );
 }
