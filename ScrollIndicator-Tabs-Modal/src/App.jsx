@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/custom-tabs/tab-test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +27,8 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <TabTest />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
